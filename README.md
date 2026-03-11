@@ -1,23 +1,25 @@
-# Cyber-Security Agent
+# 🛡️ Cybersecurity Analyzer
 
-## A Code Analyzer via Semgrep MCP server for Azure and GCP
+An AI-powered security engine that hunts for vulnerabilities in Python code. By combining **OpenAI’s** contextual intelligence with **Semgrep’s** rigorous static analysis, this tool provides developers with instant, actionable security insights.
 
-![Course Image](assets/cyber.png)
+---
 
-_If you're looking at this in Cursor, please right click on the filename in the Explorer on the left, and select "Open preview", to view it in formatted glory._
+### ✨ Key Features
+*   **Dual-Layer Scanning**: Merges AI reasoning with industry-standard static analysis (SAST).
+*   **Intelligent Remediation**: Provides natural language explanations and fix suggestions.
+*   **Cloud-Native Design**: Built to scale effortlessly on Azure and Google Cloud Platform.
+*   **Type-Safe UI**: A robust, responsive dashboard built with TypeScript and Next.js.
 
-### Welcome to the Week 3 Days 1 and 2 project..
+---
 
-Please clone this repo:
+### 🛠️ Tech Stack
 
-```bash
-git clone https://github.com/ed-donner/cyber.git
-```
 
-Then open this as a project in Cursor; then head into the week3 directory and start with guide "day1.part0" - right click and select "Open Preview".
-
-#### Keep in mind
-
-- Please submit your community_contributions, including links to your repos, in the production repo community_contributions folder
-- Regularly do a git pull to get the latest code
-- Reach out in Udemy or email (ed@edwarddonner.com) if I can help!
+| Component | Technology |
+| :--- | :--- |
+| **Backend** | Python 3.12, FastAPI, Uvicorn |
+| **Frontend** | Next.js (TypeScript), Tailwind CSS |
+| **Security** | Semgrep MCP, OpenAI SDK |
+| **DevOps** | Docker, Terraform |
+| **Cloud** | Azure Container Apps, Google Cloud Run |
+| **Secrets** | Azure Key Vault, GCP Secret Manager |
